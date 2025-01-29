@@ -50,3 +50,33 @@ const isAdult = (num1) => {
 console.log('Exercise 2 Result:', isAdult(17));
 
 
+/*
+Exercise 3: isCharAVowel()
+
+Write a function named isCharAVowel that takes a single character as 
+an argument. It should return true if the character is a vowel and 
+false otherwise. For the purposes of this exercise, the character 
+y should not be considered a vowel.
+
+Example: isCharAVowel('a') should return true.
+
+Complete the exercise in the space below:
+*/
+
+// our function isCharAVowel
+// the function is taking in a letter
+// were checking for if a letter is a vowel
+// If the letter has a vowel it should return true
+// else it should return false
+
+const isCharAVowel = (letter) =>{
+    if (letter == "a"|| letter == "e"|| letter == "i"|| letter == "o"|| letter == "u"){
+        return "true"}
+
+    else {return "false"
+
+    }
+
+}
+
+console.log('Exercise 3 Result:', isCharAVowel("a"));
