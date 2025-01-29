@@ -32,7 +32,21 @@ Example: isAdult(21) should return 'Adult'.
 
 Complete the exercise in the space below:
 */
+// function named isAdult
+// num1 - If the person is older than 18 it should return Adult 
+// else it should return a minor 
+
+const isAdult = (num1) => {
+    if (num1 >= 18){
+        return "adult"
+        
+    } else {return "minor"}
+        
+}
 
 
 
-console.log('Exercise 2 Result:', isAdult(21));
+
+console.log('Exercise 2 Result:', isAdult(17));
+
+
